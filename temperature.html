@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature</title>
+  </head>
+  <body>
+    <script>
+      var tempincelsius = prompt("Please enter a temperature in Celcius...");
+      var tempinfahrenheit = (tempincelsius * 1.8 + 32).toFixed(2);
+      // .toFixed() is a method for limiting the number of decimal places
+      console.log(tempincelsius + "° Celsius is " + tempinfahrenheit + "° Fahrenheit.");
+    </script>
+  </body>
+</html>
